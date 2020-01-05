@@ -43,6 +43,7 @@ RUN apt-get install -y libffi-dev libssl-dev build-essential python3-dev libpyth
 RUN pip3 install cryptography==2.4.2
 RUN pip3 install fabric
 RUN pip3 install --upgrade fabric
+RUN pip3 install requests
 
 # Set the locale
 RUN apt-get install -y locales
